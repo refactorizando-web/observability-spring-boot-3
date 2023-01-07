@@ -1,0 +1,28 @@
+# Observability example with Spring Boot 3
+
+## Introduction
+
+One of the changes in Spring Boot 3 has been observability. In this new version of Spring Boot micrometer
+is in charge on observability so to add observability in your application you need to add micrometer dependency.
+
+
+        <dependency>
+          <groupId>io.micrometer</groupId>
+          <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>io.micrometer</groupId>
+          <artifactId>micrometer-tracing-bridge-otel</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>io.opentelemetry</groupId>
+          <artifactId>opentelemetry-exporter-zipkin</artifactId>
+        </dependency>
+
+
+After add these dependencies we are going able to enable observability in our services
+
+## How does it work?
+
+This is a Simple Spring Boot 3 application to
+
