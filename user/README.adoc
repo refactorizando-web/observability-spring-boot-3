@@ -23,6 +23,8 @@ is in charge on observability so to add observability in your application you ne
 After add these dependencies we are going able to enable observability in our services
 and export traces to grafana.
 
+If you want more information you can take a look here: https://refactorizando.com/ejemplo-observabilidad-spring-boot-3/
+
 ## How does it work?
 
 This is a Simple Spring Boot 3 application, son to run it you can run with maven:
